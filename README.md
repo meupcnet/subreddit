@@ -4,9 +4,9 @@ Estilo do subreddit do CraftMyBox baseado no tema [Naut](https://github.com/Axel
 
 ## Instruções de Instalação
 
-  1. Navegue até /r/seu_subreddit/about/stylesheet
-  2. Cole o CSS do arquivo da pasta '/dist/craftmybox-naut.css' na área de texto
-  3. Faça upload das imagens da pasta /images/ (não renomeie-as!)
+  1. Navegue até ``/r/seu_subreddit/about/stylesheet``
+  2. Cole o CSS do arquivo da pasta ``/dist/craftmybox-naut.css`` na área de texto
+  3. Faça upload das imagens da pasta ``/images/``(não renomeie-as!)
   4. Salve
 
 ## Instruções para modificar tema
