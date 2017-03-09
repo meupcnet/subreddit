@@ -1,0 +1,13 @@
+/* Addon: Custom CSS Text */
+.arrow.down:after {
+    content: "Se o conteúdo não contribui com a discussão.";
+}
+
+div.titlebox span.number:after {
+    content: " Crafters";
+}
+
+.titlebox .users-online .number:after {
+    content: " online agora";
+}
+/* End Addon */

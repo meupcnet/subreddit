@@ -1,0 +1,19 @@
+{
+  "name": "craftmybox-subreddit",
+  "version": "1.0.0",
+  "description": " Subreddit style of CraftMyBox based on Naut",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelpimpa/craftmybox-subreddit"
+  },
+  "author": "Rafael Beraldo <rafael.pimpa@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://www.reddit.com/r/craftmybox/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
