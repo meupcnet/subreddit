@@ -3417,6 +3417,7 @@ div.titlebox span.number:after {
 
 .flair-pcmr:before { content: 'PC Master Race'; }
 .flair-desktop:before { content: 'Desktop'; }
+.flair-craftmybox:before { content: 'CraftMyBox'; }
 .flair-laptop:before { content: 'Laptop'; }
 .flair-linux:before { content: 'Linux'; }
 .flair-steam:before { content: 'Steam'; }
