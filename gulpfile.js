@@ -9,7 +9,7 @@ gulp.task('minify', function () {
     return gulp.src('src/*.css')
         .pipe(cssnano()) // Minify CSS
         .pipe(autoprefixer({ // Add vendor-free css
-            browsers: ['last 2 versions', '> 1%'],
+            browsers: ['last 2 versions'],
             cascade: false
         }))
         .pipe(gulp.dest('dist'));

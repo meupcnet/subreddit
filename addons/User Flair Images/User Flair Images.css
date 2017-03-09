@@ -1,5 +1,5 @@
 /* Addon: User Flair Images */
-.flair:before {
+/*.flair:before {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -12,11 +12,71 @@
     vertical-align: top;
     position: relative;
     top: -1px;
-}
+}*/
 
 /* The "one", "two", etc.. are the names you fill in in the "css" input field on the /r/.../about/flair page. */
-.flair-one:before{background-position:0 -0}
+/*.flair-one:before{background-position:0 -0}
 .flair-two:before{background-position:0 -16px}
 .flair-three:before{background-position:0 -32px}
-.flair-four:before{background-position:0 -48px}}
+.flair-four:before{background-position:0 -48px}}*/
+/* End Addon */
+
+
+/* Addon: User Flair Images */
+.flair {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: calc(100% - 10px);
+    background: #444;
+    color: #FFF;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 20px;
+    height: 20px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin-bottom: -6px;
+    transition: all 150ms ease-out;
+    cursor: default;
+    border-right: 4px solid rgba(0, 0, 0, .2);
+}
+.flair:before {
+    display: inline-block;
+    padding-left: 2px;
+    border: none;
+    border-radius: 3px;
+    line-height: 21px;
+    overflow: visible;
+    text-overflow: initial;
+    white-space: initial;
+    font-size: 10px;
+}
+.flair:not(:hover) {
+    font-size: 0;
+    padding-right: 0;
+}
+.side .tagline:hover > .flair, .side li:hover > .flair, .side .bottom:hover > .flair {
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.flair-color-pc { background: #D62D3E; }
+.flair-color-steam { background: #7767DA; }
+.flair-color-origin { background: #F56C2D; }
+.flair-color-linux { background: #2290EA; }
+
+.flair-pcmr:before { content: 'PC Master Race'; }
+.flair-desktop:before { content: 'Desktop'; }
+.flair-laptop:before { content: 'Laptop'; }
+.flair-linux:before { content: 'Linux'; }
+.flair-steam:before { content: 'Steam'; }
+.flair-origin:before { content: 'Origin'; }
 /* End Addon */
