@@ -17,4 +17,4 @@ Estilo do subreddit do CraftMyBox baseado no tema [Naut](https://github.com/Axel
   2. Instale as dependências via ``npm install``
   3. Faça modificações no arquivo ``src/craftmybox-naut.css``
   4. Gere a build via ``gulp``
-  5. Siga os passos de [Instruções de Instalação](#instrucoes-de-instalacao)
+  5. Siga os passos de [Instruções de Instalação](#instruções-de-instalação)
